@@ -1,0 +1,173 @@
+body{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color:#000000;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 36px;
+	color:#FFF;
+	float: left;
+	margin-top:60px;
+	margin-bottom:30px;
+}
+
+h2{
+	font-size:28px;
+	font-weight: 100;
+	margin-top:18px;
+	margin-left:20px;
+	color:#FFF;
+	float:left;
+}
+
+h3{
+	font-weight: 100;
+	font-size: 14px;
+	color:#FFF;
+	float:right;
+	margin-top:82px;
+	margin-bottom:30px;
+}
+
+h4 a{
+	font-weight: 700;
+	font-size: 12px;
+	float:right;
+	color:#FFF;
+	margin-top:32px;
+	margin-right:20px;
+	text-decoration:none;
+}
+
+h4 a:hover{
+	color:#FF6600;
+}
+
+p{
+	font-size:14px;
+	width:602px;
+	margin-left:20px;
+	margin-top:40px;
+	line-height:20px;
+}
+
+cite{
+	font-size:12px;
+	color:#666666;
+	margin-top:20px;
+	margin-left:20px;
+	float:left;
+}
+
+em{
+	font-weight:700;
+}
+
+span{
+	letter-spacing:1px;
+}
+
+#container {
+	width: 978px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.prototypeVersion{
+	width:978px;
+	margin-bottom:30px;
+	float:left;
+}
+
+.imageContainer{
+	width:306px;
+	height:204px;
+	float:left;
+}
+
+.imageContainer a{
+	width:306px;
+	height:204px;
+	display:block;
+	background-position:left -204px;
+}
+
+.imageContainer a:hover{
+	background-position:left 0px;
+}
+
+#v1{
+	background-image:url(../images/v1.jpg);
+}
+
+#v2{
+	background-image:url(../images/v2.jpg);
+}
+
+#v3{
+	background-image:url(../images/v3.jpg);
+}
+
+#v4{
+	background-image:url(../images/v4.jpg);
+}
+
+#v5{
+	background-image:url(../images/v5.jpg);
+}
+
+.versionDescription{
+	background-color:#FFFFFF;
+	width:642px;
+	height:204px;
+	float:right;
+	background-repeat:no-repeat;
+}
+
+#version1{
+	background-image:url(../images/v1bg.jpg);
+}
+
+#version2{
+	background-image:url(../images/v2bg.jpg);
+}
+
+#version3{
+	background-image:url(../images/v3bg.jpg);
+}
+
+#version4{
+	background-image:url(../images/v4bg.jpg);
+}
+
+#version5{
+	background-image:url(../images/v5bg.jpg);
+}
+
+#footer{
+	width:978px;
+	height:54px;
+	background-image:url(../images/footerbg.jpg);
+	margin-bottom:30px;
+}
+
+#footer p{
+	font-size:12px;
+	color:#666666;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:10px;
+	float:left;
+	width:306px;
+	line-height:normal;
+}
+
+#footer em{
+	font-style:italic;
+	font-weight:400;
+}
+
+.clear{
+	clear:both;
+}
